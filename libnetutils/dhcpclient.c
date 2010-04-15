@@ -401,7 +401,7 @@ static int is_valid_reply(dhcp_msg *msg, dhcp_msg *reply, int sz)
 #define STATE_REQUESTING 2
 
 #define TIMEOUT_INITIAL   4000
-#define TIMEOUT_MAX      32000
+#define TIMEOUT_MAX      8000
 
 int dhcp_init_ifc(const char *ifname)
 {
